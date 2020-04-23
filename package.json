@@ -1,0 +1,26 @@
+{
+  "name": "ardoq-sync-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda": "babel-node src/examples/awsLambda/index.js",
+    "start": "babel-node src/examples/appendDescription/index.js",
+    "s3": "babel-node src/examples/s3/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ardoq-sdk-js": "^0.1.3",
+    "aws-sdk": "^2.620.0",
+    "babel-core": "^7.0.0-bridge.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0"
+  }
+}

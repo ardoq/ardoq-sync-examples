@@ -1,0 +1,57 @@
+{
+  "NextMarker": null,
+  "Functions": [
+    {
+      "FunctionName": "twilioCallback",
+      "FunctionArn": "arn:aws:lambda:eu-west-1:086297312111:function:twilioCallback",
+      "Runtime": "nodejs8.10",
+      "Role": "arn:aws:iam::086297312111:role/lambda_basic_execution",
+      "Handler": "index.handler",
+      "CodeSize": 304,
+      "Description": "",
+      "Timeout": 3,
+      "MemorySize": 128,
+      "LastModified": "2019-01-04T15:29:10.522+0000",
+      "CodeSha256": "u8fLg+WYOTOPpxvVRKjzcakqakPsalLjLpAZyGD+jfI=",
+      "Version": "$LATEST",
+      "KMSKeyArn": null,
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "MasterArn": null,
+      "RevisionId": "e00921f8-79a3-4b24-aec7-f7c10ecc3c70",
+      "State": null,
+      "StateReason": null,
+      "StateReasonCode": null,
+      "LastUpdateStatus": null,
+      "LastUpdateStatusReason": null,
+      "LastUpdateStatusReasonCode": null
+    },
+    {
+      "FunctionName": "ardoq-slack-integration-dev-aviato",
+      "FunctionArn": "arn:aws:lambda:eu-west-1:086297312111:function:ardoq-slack-integration-dev-aviato",
+      "Runtime": "nodejs10.x",
+      "Role": "arn:aws:iam::086297312111:role/ardoq-slack-integration-dev-eu-west-1-lambdaRole",
+      "Handler": "slack_handlers/aviato.handler",
+      "CodeSize": 1450903,
+      "Description": "",
+      "Timeout": 6,
+      "MemorySize": 1024,
+      "LastModified": "2020-02-11T18:25:24.785+0000",
+      "CodeSha256": "T9aVc+cmQegErF93JCk+sbJyAtwKQvHrW9+q70q5EZ4=",
+      "Version": "$LATEST",
+      "KMSKeyArn": null,
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "MasterArn": null,
+      "RevisionId": "5ed5e2a8-4bed-4225-a51c-ea2db61d3766",
+      "State": null,
+      "StateReason": null,
+      "StateReasonCode": null,
+      "LastUpdateStatus": null,
+      "LastUpdateStatusReason": null,
+      "LastUpdateStatusReasonCode": null
+    }
+  ]
+}
